@@ -1,6 +1,7 @@
 :root {
-  --branding-color: cornflowerblue;
-  --background-color: mintcream;
+  --branding-color: rgb(132, 38, 219);
+  --hero-background-color: #b1c4fc;
+  --background-color: #b0c6f9;
   --main-font: "Josefin Sans", sans-serif;
   --heading-font: "Ephesis", cursive;
   --mainpage-font: "Italianno", cursive;
@@ -8,6 +9,7 @@
 
 body {
   font-family: var(--main-font);
+  background: var(--background-color);
 }
 
 h1,
@@ -19,6 +21,9 @@ h6 {
   font-family: var(--heading-font);
 }
 
+h1 {
+  text-shadow: 5px 5px 5px #8760e6;
+}
 h2 {
   font-size: 64px;
 }
@@ -45,7 +50,7 @@ p {
 }
 
 .hero {
-  background: var(--background-color);
+  background: var(--hero-background-color);
   text-align: center;
   padding: 160px 50px;
 }
@@ -68,6 +73,19 @@ p {
   padding: 30px 0;
 }
 
+.about {
+  padding: 160px 50px;
+}
+
+.about h1 {
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px rgb(14, 224, 14);
+}
+
+.about-content {
+  margin: 30px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
@@ -81,5 +99,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about {
+    text-align: center;
+    padding: 0;
   }
 }
