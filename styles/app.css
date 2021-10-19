@@ -73,17 +73,21 @@ p {
   padding: 30px 0;
 }
 
-.about {
+.content {
   padding: 160px 50px;
 }
 
-.about h1 {
+.content h1 {
   text-decoration: underline;
   text-shadow: 5px 5px 5px rgb(14, 224, 14);
 }
 
 .about-content {
   margin: 30px;
+}
+
+.cosplay {
+  height: 617px;
 }
 
 @media (max-width: 960px) {
