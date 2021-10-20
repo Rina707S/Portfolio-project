@@ -86,6 +86,11 @@ p {
   margin: 30px;
 }
 
+.contact h3 {
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px rgb(14, 224, 14);
+}
+
 .cosplay {
   height: 617px;
 }
