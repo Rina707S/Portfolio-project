@@ -95,6 +95,36 @@ p {
   height: 617px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li.active a {
+  color: var(--branding-color);
+  text-shadow: 5px 5px 5px #8760e6;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
