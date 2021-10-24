@@ -95,10 +95,6 @@ p {
   text-shadow: 5px 5px 5px rgb(14, 224, 14);
 }
 
-.cosplay {
-  height: 617px;
-}
-
 nav {
   padding: 20px 0;
 }
@@ -180,13 +176,20 @@ footer .sns a:hover {
   h4 {
     font-size: 20px;
   }
-  .btn {
-    font-size: 17px;
-    margin-top: 5px !important;
+  .start h1 {
+    font-size: 64px;
   }
+
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px 30px 20px;
   }
+  .home-p {
+    margin-top: 0 !important;
+  }
+  .content {
+    padding: 0 50px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -194,6 +197,10 @@ footer .sns a:hover {
   .about {
     text-align: center;
     padding: 0;
+  }
+  .btn {
+    font-size: 17px;
+    margin-top: 5px !important;
   }
   footer .contact-box {
     padding: 30px 35px;
