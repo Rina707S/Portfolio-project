@@ -56,7 +56,7 @@ p {
 .hero {
   background: var(--hero-background-color);
   text-align: center;
-  padding: 160px 50px;
+  padding: 100px 50px;
 }
 
 .btn-branding {
@@ -78,7 +78,7 @@ p {
 }
 
 .content {
-  padding: 160px 50px;
+  padding: 60px 50px;
 }
 
 .content h1 {
